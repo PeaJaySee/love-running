@@ -1,7 +1,7 @@
 /*Remember order of specificity - Most general to most specific down the page*/
 
 /*Google fonts import - to go to top of stylesheet*/
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 /*asterisk wildcard selector to override default browser styles - applies to all elements unless overridden*/
 * {padding:0;
@@ -19,12 +19,6 @@ body {min-height: 100vh;
 /*Header*/
 header {background-color: lightblue;}
 
-h1 {
-      font-family: "Gabarito", serif;
-      font-optical-sizing: auto;
-      font-weight: 200;
-      font-style: normal;
-    }
 
 /*Main*/
 main {background-color: chocolate;
