@@ -20,6 +20,8 @@ body {min-height: 100vh;
 /*Header*/
 header {background-color: lightblue;}
 
+/*H1 font*/
+h1 {font-family:"Oswald", sans-serif}
 
 /*Main*/
 main {background-color: chocolate;
