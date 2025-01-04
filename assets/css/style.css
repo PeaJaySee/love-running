@@ -112,3 +112,13 @@ padding: 1rem;}
 main{margin-top: 92px;}
 
 }
+
+
+/* Media query - tablets and larger (992px upwards) */
+/* CSS between query curly brackets Will only be applied to screens 992 pixels and up */
+
+@media screen and (min-width: 992px) {
+
+#menu a:hover{border-bottom: 1px solid #252525;}
+
+}
