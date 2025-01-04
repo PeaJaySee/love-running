@@ -74,3 +74,28 @@ main {background-color: rgb(89, 167, 164);
 
 /*Footer*/
 footer {background-color: orange;}
+
+
+
+/** MEDIA QUERIES TO GO AT BOTTOM - SMALLEST SCREEN SIZE FIRST **/
+
+/* Media query - tablets and larger (768px upwards) */
+/* CSS between query curly brackets Will only be applied to screens 768 pixels and up */
+
+@media screen and (min-width: 768px) {
+
+/*header*/
+
+nav{display:block;
+position:relative;
+box-shadow:none;
+width:fit-content;
+padding: 1rem;}
+
+#menu{display:flex}
+
+#menu > li{padding-left: 1rem;}
+
+.nav-toggle-label{visibility:hidden;}
+
+}
