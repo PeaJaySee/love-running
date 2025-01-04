@@ -96,6 +96,19 @@ padding: 1rem;}
 
 #menu > li{padding-left: 1rem;}
 
-.nav-toggle-label{visibility:hidden;}
+/*.nav-toggle-label{visibility:hidden;}*/
+
+.nav-toggle-label{display:none}
+
+#logo{
+      font-size:250%;
+      line-height: 75px;
+      margin: 0 0.5rem;
+}
+
+/*Main Content*/
+/*Move content down to accommodate larger header*/
+
+main{margin-top: 92px;}
 
 }
