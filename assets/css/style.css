@@ -17,6 +17,12 @@ body {min-height: 100vh;
       font-family: "Lato", "sans-serif";
       }
 
+h1,h2, h3 {font-family:"Oswald", sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /*Header*/
 header {background-color: #ffffff;
         padding:0 1rem;
@@ -60,12 +66,7 @@ nav {position: absolute;
 
 .nav-toggle-label{font-size:2rem}
 
-/*H1 font*/
-h1 {font-family:"Oswald", sans-serif;
-    text-transform:uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 /*Main*/
 main {
@@ -74,9 +75,28 @@ main {
 
 /* Hero section */
 
+/*section*/
 #hero{height:700px;
       width:100%;
       background: url(../images/hero-image.webp) no-repeat center center/cover;
+      position:relative;
+ 
+}
+
+/*Final RGBA value SETS OPACITY*/
+/*Div*/
+#cover-text{background-color: rgba(180, 224, 22, 0.8);
+            font-size:130%;
+            position:absolute;
+            bottom:30px;
+            width:80%;
+            min-height:150px;
+            padding-top:25px;
+            padding-left:10px;
+}
+
+#cover-text > h2, #cover-text > h3 {color:#000000;
+
 }
 
 /*Footer*/
@@ -133,6 +153,11 @@ main{margin-top: 92px;}
 
 }
 
+/*Hero*/
+
+#cover-text{width:280px;
+            right:50px;
+}
 
 /* Media query - tablets and larger (992px upwards) */
 /* CSS between query curly brackets Will only be applied to screens 992 pixels and up */
