@@ -99,11 +99,12 @@ main {
 
 /*Reasons Section*/
 
-#reasons{width:90%;}
+#reasons{width:90%;
+         margin: 20px auto;}
 
 #reasons h2{font-size:280%;
-            margin: 20px auto;
-            align-self: center;
+            margin-bottom: 20px;
+            text-align: center;
 }
 
 #benefits{display:flex;
@@ -113,15 +114,19 @@ main {
 
 #benefits p {padding: 0 20px;}
 
-#benefits-physical div{
+#benefits hr {border-top: 1px solid #252525}
+
+#benefits-physical > div{
                    margin-bottom:20px;
                    line-height: 20px;
 }
 
-#benefits-mental div{
+#benefits-mental > div{
                  margin-bottom: 20px;
                  line-height: 20px;                  
 }
+
+
 
 /*Footer*/
 
