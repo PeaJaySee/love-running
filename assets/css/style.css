@@ -118,15 +118,22 @@ main {
               margin: 5px 0;
 }
 
-#benefits-physical > div{
+#benefits-physical {display: flex;
+                        flex-direction: column;
                    margin-bottom:20px;
                    line-height: 20px;
+                   width: 100%;
 }
 
-#benefits-mental > div{
+#benefits-mental {display: flex;
+                  flex-direction: column;
                  margin-bottom: 20px;
-                 line-height: 20px;                  
+                 line-height: 20px;  
+                 width:100%;
+
 }
+
+
 
 #circle-cover-bg {height:90vw;
                   width:90vw;
@@ -201,6 +208,17 @@ main{margin-top: 92px;}
 #cover-text{width:280px;
             right:50px;
 }
+
+/*Reasons*/
+
+#benefits-mental > div, #benefits-physical > div {display:flex;
+            flex-direction: column;
+      width: 75%;}
+
+      #benefits-mental > div{text-align: end;
+                             align-self: flex-end;
+      }
+
 
 /* Media query - tablets and larger (992px upwards) */
 /* CSS between query curly brackets Will only be applied to screens 992 pixels and up */
