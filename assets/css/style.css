@@ -130,9 +130,17 @@ main {
 
 #circle-cover-bg {height:90vw;
                   width:90vw;
-                  position:relative;
-                  background: url(../images/reasons-image-circle.webp) no-repeat center;
-                  }
+                  background: url(../images/reasons-image-circle.webp) no-repeat center/cover;
+                  margin-bottom:20px;
+                  border-radius: 50%;
+                  max-width:300px;
+                  max-height:300px;
+            }
+
+#benefits-image {display: flex;
+                 align-items: center;
+                 justify-content: center;
+}
 
 /*Footer*/
 
