@@ -73,7 +73,10 @@ nav {position: absolute;
 /*Main*/
 main {
       flex: 1 0 auto;
-      margin-top:50px;}
+      margin-top:50px;
+      display: flex;
+      flex-direction: column;
+}
 
 /* Hero section */
 
@@ -185,13 +188,43 @@ main {
 
 /**SIGN UP PAGE**/
 
-#signup-form{display:flex;
-        flex-direction: column;
+
+#signup{
+        background: url(../images/signup-image.webp)  no-repeat center/cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
 }
 
-#signup{margin-top: 50px;}
+#signup-form{color:#f0f8ff;
+background-color: rgba(70,70,70,0.7);
+padding:30px;
+}
 
+#signup-form > h2 {color:#f0f8ff; margin-bottom:25px;}
 
+.text-input{background:transparent;
+            color: #fafafa;
+            width: 90%;
+            height: 25px;
+            padding: 0 5px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #f0f8ff;
+}
+
+.radio-buttons{width:100%;
+               display:flex;
+               justify-content: space-between;
+               margin-bottom: 20px;
+}
+
+.join-button{border-radius: 5px;
+             padding:15px 32px;
+             background-color: #454b1b; 
+             color:#f0f8ff;
+             font-size: 100%;          
+}
 
 /*Footer*/
 
@@ -276,6 +309,25 @@ main{margin-top: 92px;}
 #photos {column-count: 3;
          column-gap:0;
 }
+
+/*SIGNUP PAGE*/
+
+
+
+#signup-form{position:absolute;
+             max-width: 400px;
+             left:10%;
+             
+}
+
+#signup{background-position: center;
+        position:relative;
+}
+
+.text-input:hover {border-color:aquamarine;}
+
+.join-button:hover {background-color:#fafafa;
+                     color:#454b1b;}
 
 }
 

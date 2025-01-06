@@ -35,19 +35,19 @@
 <!--Main Content-->
 <main>
     <section id="signup">
-        <h2>Let's Get You Signed Up!  <i class="fa-solid fa-heart-pulse"></i></h2>
+        
         <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
+            <h2>Let's Get You Signed Up!  <i class="fa-solid fa-heart-pulse"></i></h2>
 <!--Text Inputs-->
-<fieldset>
 <label for="first-name">First Name:</label>
-<input type="text" id="first-name" name="First-Name" required> <br>
+<input type="text" id="first-name" class="text-input" name="First-Name" required> <br>
 <label for="last-name">Last Name:</label>
-<input type="text" id="last-name" name="Last-Name" required> <br>
+<input type="text" id="last-name" class="text-input" name="Last-Name" required> <br>
 <label for="email">Email:</label>
-<input type="email" id="email-address" name="Email" required> <br>
-</fieldset>
+<input type="email" id="email-address" class="text-input" name="Email" required> <br>
+
 <!--Radio Buttons-->
-<fieldset>
+
     <div class="radio-buttons">
 <div>  
 <label for="road">Road</label>
@@ -62,7 +62,7 @@
 <input type="radio" id="both" value="Both" name="running-preference">
 </div>
 </div>
-</fieldset>
+
 <!--Submit button-->
 <button type="submit" class="join-button"><strong>Let's Run!</strong></button>
         </form>
