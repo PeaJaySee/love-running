@@ -182,6 +182,17 @@ main {
             line-height: 1em;
 }
 
+
+/**SIGN UP PAGE**/
+
+#signup-form{display:flex;
+        flex-direction: column;
+}
+
+#signup{margin-top: 50px;}
+
+
+
 /*Footer*/
 
 footer{background-color: white;}
