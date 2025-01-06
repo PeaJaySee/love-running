@@ -202,6 +202,16 @@ footer{background-color: white;}
 
 /** MEDIA QUERIES TO GO AT BOTTOM - SMALLEST SCREEN SIZE FIRST **/
 
+/*Media Query - Large or landscape phones (576px upwards)*/
+
+@media screen and (min-width: 576px){
+ 
+ #photos{column-count: 2;
+         column-gap: 0;
+}     
+
+}
+
 /* Media query - tablets and larger (768px upwards) */
 /* CSS between query curly brackets Will only be applied to screens 768 pixels and up */
 
@@ -251,6 +261,11 @@ main{margin-top: 92px;}
       #benefits-mental > div{text-align: end;
                              align-self: flex-end;
       }
+
+#photos {column-count: 3;
+         column-gap:0;
+}
+
 }
 
 /* Media query - tablets and larger (992px upwards) */
@@ -282,5 +297,9 @@ main{margin-top: 92px;}
 
 #benefits-mental > div {align-self: flex-end;
                         margin-bottom: 10px;}
+
+#photos{column-count:4;
+        column-gap:0;
+}
 
 }
